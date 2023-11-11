@@ -1,0 +1,239 @@
+Microsoft Windows [Version 10.0.19045.3570]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\viraj>git --version
+git version 2.42.0.windows.2
+
+C:\Users\viraj> git config --global user.name "Viraj"
+
+C:\Users\viraj> git config --global user.email "virajchormale71@gmail.com"
+
+C:\Users\viraj>cd D:
+D:\
+
+C:\Users\viraj>cd..
+
+C:\Users>cd..
+
+C:\>D:
+
+D:\>cd OneApp_/client
+The system cannot find the path specified.
+
+D:\>cd OneApp_2.0
+
+D:\OneApp_2.0>cd client
+
+D:\OneApp_2.0\client>git init
+Initialized empty Git repository in D:/OneApp_2.0/client/.git/
+
+D:\OneApp_2.0\client>ls -a
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\OneApp_2.0\client>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\OneApp_2.0\client>dir -a
+ Volume in drive D is DATA
+ Volume Serial Number is FE54-2B1F
+
+ Directory of D:\OneApp_2.0\client
+
+File Not Found
+
+D:\OneApp_2.0\client>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        package-lock.json
+        package.json
+        public/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\OneApp_2.0\client> git add *
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+
+D:\OneApp_2.0\client>git add Readme.md
+
+D:\OneApp_2.0\client>git .gitignore
+git: '.gitignore' is not a git command. See 'git --help'.
+
+D:\OneApp_2.0\client>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/favicon.ico
+        new file:   public/index.html
+        new file:   public/logo192.png
+        new file:   public/logo512.png
+        new file:   public/manifest.json
+        new file:   public/robots.txt
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/App.test.js
+        new file:   src/CSS/AI.css
+        new file:   src/CSS/Dashboard.css
+        new file:   src/CSS/Menucard.css
+        new file:   src/CSS/Sidebar.css
+        new file:   src/CSS/SqlTable.css
+        new file:   src/CSS/Troubleshoot.css
+        new file:   src/Components/AI.jsx
+        new file:   src/Components/Links.jsx
+        new file:   src/Components/SMS.png
+        new file:   src/Components/Sidebar.jsx
+        new file:   src/Components/SqlTable.jsx
+        new file:   src/Components/Table.jsx
+        new file:   src/Components/Test.jsx
+        new file:   src/Components/Troubleshoot.jsx
+        new file:   src/Components/sql.png
+        new file:   src/Components/test.css
+        new file:   src/Components/user.png
+        new file:   src/Support_Components/CustomerList.jsx
+        new file:   src/Support_Components/Menucard.jsx
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/logo.svg
+        new file:   src/reportWebVitals.js
+        new file:   src/setupTests.js
+
+
+D:\OneApp_2.0\client>git commit -m "initial commit"
+[master (root-commit) 639ef40] initial commit
+ 37 files changed, 19678 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/CSS/AI.css
+ create mode 100644 src/CSS/Dashboard.css
+ create mode 100644 src/CSS/Menucard.css
+ create mode 100644 src/CSS/Sidebar.css
+ create mode 100644 src/CSS/SqlTable.css
+ create mode 100644 src/CSS/Troubleshoot.css
+ create mode 100644 src/Components/AI.jsx
+ create mode 100644 src/Components/Links.jsx
+ create mode 100644 src/Components/SMS.png
+ create mode 100644 src/Components/Sidebar.jsx
+ create mode 100644 src/Components/SqlTable.jsx
+ create mode 100644 src/Components/Table.jsx
+ create mode 100644 src/Components/Test.jsx
+ create mode 100644 src/Components/Troubleshoot.jsx
+ create mode 100644 src/Components/sql.png
+ create mode 100644 src/Components/test.css
+ create mode 100644 src/Components/user.png
+ create mode 100644 src/Support_Components/CustomerList.jsx
+ create mode 100644 src/Support_Components/Menucard.jsx
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+
+D:\OneApp_2.0\client>git log
+commit 639ef409089f2c1613f22b997536ec210eab2164 (HEAD -> master)
+Author: Viraj <virajchormale71@gmail.com>
+Date:   Sat Nov 11 20:17:53 2023 +0530
+
+    initial commit
+
+D:\OneApp_2.0\client>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\OneApp_2.0\client>git branch
+* master
+
+D:\OneApp_2.0\client> git branch dev
+
+D:\OneApp_2.0\client>git branch
+  dev
+* master
+
+D:\OneApp_2.0\client>git checkout dev
+Switched to branch 'dev'
+
+D:\OneApp_2.0\client>git checkout master
+Switched to branch 'master'
+
+D:\OneApp_2.0\client>git merge dev
+Already up to date.
+
+D:\OneApp_2.0\client>git remote add origin https://github.com/VirajChoramale/OneApp.git
+
+D:\OneApp_2.0\client>git branch -M master
+
+D:\OneApp_2.0\client>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (44/44), 210.25 KiB | 2.92 MiB/s, done.
+Total 44 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/VirajChoramale/OneApp.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+D:\OneApp_2.0\client>git checkout dev
+Switched to branch 'dev'
+
+D:\OneApp_2.0\client>git pust origin -u dev
+git: 'pust' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+D:\OneApp_2.0\client>git push origin -u dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/VirajChoramale/OneApp/pull/new/dev
+remote:
+To https://github.com/VirajChoramale/OneApp.git
+ * [new branch]      dev -> dev
+branch 'dev' set up to track 'origin/dev'.
+
+D:\OneApp_2.0\client>git fetch origin -u dev
+From https://github.com/VirajChoramale/OneApp
+ * branch            dev        -> FETCH_HEAD
+
+D:\OneApp_2.0\client>
